@@ -1,0 +1,121 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+div{
+    padding:0%
+
+
+}
+nav {
+    background-color:black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 5px;
+    color: white;
+}
+footer{
+    background-color:rgb(27, 25, 25);
+    color: white;
+}
+.project-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    color: white;
+}
+
+label {
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+.profile-image {
+
+    padding: 0px;
+    max-width: 150px; 
+    border-radius: 40%; 
+    height: auto; 
+}
+.profile-name {
+    text-align: center; 
+    margin-top: 5pxpx; 
+    font-weight: bold; 
+}
+
+.skill-card {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+.cplusplus {
+    background-color: #306d76; 
+    color: white;
+}
+
+.c {
+    background-color: #73bcd4; 
+    color: white;
+}
+
+.python {
+    background-color: #306998; 
+    color: white;
+}
+
+.html {
+    background-color: #f07b5e;
+    color: white;
+}
+.EM
+{
+    background-color: #b98376;
+    color: white;
+
+}
+.BS{
+    background-color: #008cba;
+    color: white;
+}
+.JS
+{
+    background-color: #ef719f;
+    color: white;
+}
+
+.skill-card:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); /* Change color to a lighter version */
+}
+.profile-name:hover{
+    transform: scale(1.1);
+}
